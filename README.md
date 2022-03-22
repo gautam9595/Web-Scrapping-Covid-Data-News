@@ -1,1 +1,1 @@
-# Web-Scrapping-Covid-Data-News-using-python-PLY-yaac-compiler
+# Web-Scrapping-Covid-Data-News
