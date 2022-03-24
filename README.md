@@ -73,3 +73,4 @@ Given a country name, start, and end date, application answers the following que
    * Closest country similar to Change in new recovered in %
    * Closest country similar to Change in new cases in %
 </details>
+Date-wise data is 
