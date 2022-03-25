@@ -26,6 +26,11 @@ from tkcalendar import DateEntry
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg)
 
+#------------------if Until Current Data is required, uncomment the below line-----------------
+#import download_files
+
+#----It may happend that sometimes request fails to extract the html page. so we may have to run it multiple time and once all requests are completed, lex can extract all the information.
+#----------------------------------------------------------------------------------------------
 months = {}
 for m in list(calendar.month_name[1:]):
     months[m] = {}
