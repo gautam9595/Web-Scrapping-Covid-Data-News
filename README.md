@@ -52,6 +52,7 @@ Application to crawl web pages and extracting the required information from them
   </details>
   
 ## Crawling worldometers
+
  [Worldometer](https://www.worldometers.info/coronavirus/) is a website where you will find all the coronavirus-related statistics world/continent/country-wise, like total cases, active cases, total death, new death, total recovered, serious/critical cases, total tests are done, etc.<br/>
  Extracting yesterday's data to find the following queries for the world, all continents, and below given countries. 
  <details>
@@ -59,7 +60,10 @@ Application to crawl web pages and extracting the required information from them
   <p>Total cases | Active cases | Total deaths | Total recovered | Total tests | Death/million | Tests/million | New case | New death | New recovered</p>
 </details>
 
+<img src="" width="900" height="500">
+
 ## Extraxting Countries Covid date-wise data.
+
 Given a country name, start, and end date, application answers the following queries
  <details>
   <summary>Queries</summary>
@@ -73,6 +77,7 @@ Given a country name, start, and end date, application answers the following que
    * Closest country similar to Change in new recovered in %
    * Closest country similar to Change in new cases in %
 </details>
+
 # Web-Scrapping-Covid-News
 
 ## Extracting Covid worldwide News/Response
@@ -80,7 +85,9 @@ Given a country name, start, and end date, application answers the following que
 [Timeline of Covid-19](https://en.wikipedia.org/wiki/Timeline_of_the_COVID-19_pandemic) is a website managed by wikipedia. It reports all the coivd  related world/country specific news/response.<br/>
 Given a Start date and End date, the application extracts all the worldwide covid related news/response between the two dates. Also It Plots a <b>Word Cloud</b> with all words present in the news
 ![ss](https://user-images.githubusercontent.com/47922035/160137422-6f67ddb6-231c-4658-8df6-f359f7099480.jpg)
+
 ## Plotting word cloud and finding covid words
+
 For the below operations, stopwords are ignored.
 Given two non-overlapping date range
 * Application extracts all the common words and also covid common words. Covid Words are given in the folder.
@@ -101,7 +108,8 @@ Given a country and date range,
 
 ## Finding Top 3 closest countries according to Jaccard Similarity
 Given a country and a date range,
-* Application finds the top-3 countries with most similar news according to Jaccard Similarity
-  ```
-  J(A,B) = |A ∩ B|/|A ∪ B| where, A & B are the words
-  ```
+* Application finds the top-3 countries with most similar word match according to Jaccard Similarity
+* Application finds the top-3 countries with most similar covid word match according to Jaccard Similarity
+    ```
+   J(A,B) = |A ∩ B|/|A ∪ B| where, A & B are the set of words extracted from news between given range
+   ```
