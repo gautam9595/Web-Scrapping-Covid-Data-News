@@ -78,5 +78,12 @@ Given a country name, start, and end date, application answers the following que
 ## Extracting Covid worldwide News/Response
 
 [Timeline of Covid-19](https://en.wikipedia.org/wiki/Timeline_of_the_COVID-19_pandemic) is a website managed by wikipedia. It reports all the coivd  related world/country specific news/response.<br/>
-Given a Start date and End date, the application extracts all the worldwide covid related news/response between the two dates. Also It Plots a <b>Word Cloud</b> with all words present in the news.
-![Screenshot from 2022-03-25 19-01-30](https://user-images.githubusercontent.com/47922035/160131559-2e94a8fb-f427-4191-9d4e-3ce7decb2194.png)
+Given a Start date and End date, the application extracts all the worldwide covid related news/response between the two dates. Also It Plots a <b>Word Cloud</b> with all words present in the news
+<img src="" width="1000" height="350">
+## Plotting word cloud and finding covid words
+For the below operations, stopwords are ignored.
+Given two non-overlapping date range
+* Application extracts all the common words and also covid common words. Covid Words are given in the folder.
+* Finds the percentage of covid words in common words
+* Find the top-20 common and covid common words
+.githubusercontent.com/47922035/160136321-eebe0760-bc47-4a08-b1dc-539b3c6e1495.png" width="100" height="100">
