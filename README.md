@@ -60,7 +60,7 @@ Application to crawl web pages and extracting the required information from them
   <p>Total cases | Active cases | Total deaths | Total recovered | Total tests | Death/million | Tests/million | New case | New death | New recovered</p>
 </details>
 
-<img src="https://user-images.githubusercontent.com/47922035/160141954-41ffac31-6eb9-4cd8-a886-1edd3ac09c9a.jpg" width="1100" height="350">
+<img src="https://user-images.githubusercontent.com/47922035/160141954-41ffac31-6eb9-4cd8-a886-1edd3ac09c9a.jpg" width="1100" height="380">
 
 ## Extraxting Countries Covid date-wise data.
 
@@ -79,7 +79,7 @@ Given a country name, start, and end date, application answers the following que
 </details>
 
 
-<img src="https://user-images.githubusercontent.com/47922035/160142506-f4382b87-793a-4113-a552-b4aa2f9fc6a6.png" width="900" height="400">
+<img src="https://user-images.githubusercontent.com/47922035/160142506-f4382b87-793a-4113-a552-b4aa2f9fc6a6.png" width="900" height="500">
 
 # Web-Scrapping-Covid-News
 
@@ -96,9 +96,10 @@ Given two non-overlapping date range
 * Application extracts all the common words and also covid common words. Covid Words are given in the folder.
 * Finds the percentage of covid words in common words
 * Find the top-20 common and covid common words
+* 
 <img src="https://user-images.githubusercontent.com/47922035/160137569-3e225706-5316-4e67-9728-e4aaf13b3d19.png" width="900" height="500">
 
- ## Extracting Date Range
+## Extracting Date Range
  
  Given a country, Extracting the start and end date for which country's covid news is available
 
