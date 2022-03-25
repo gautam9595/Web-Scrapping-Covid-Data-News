@@ -79,11 +79,29 @@ Given a country name, start, and end date, application answers the following que
 
 [Timeline of Covid-19](https://en.wikipedia.org/wiki/Timeline_of_the_COVID-19_pandemic) is a website managed by wikipedia. It reports all the coivd  related world/country specific news/response.<br/>
 Given a Start date and End date, the application extracts all the worldwide covid related news/response between the two dates. Also It Plots a <b>Word Cloud</b> with all words present in the news
-<img src="" width="1000" height="350">
+![ss](https://user-images.githubusercontent.com/47922035/160137422-6f67ddb6-231c-4658-8df6-f359f7099480.jpg)
 ## Plotting word cloud and finding covid words
 For the below operations, stopwords are ignored.
 Given two non-overlapping date range
 * Application extracts all the common words and also covid common words. Covid Words are given in the folder.
 * Finds the percentage of covid words in common words
 * Find the top-20 common and covid common words
-.githubusercontent.com/47922035/160136321-eebe0760-bc47-4a08-b1dc-539b3c6e1495.png" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/47922035/160137569-3e225706-5316-4e67-9728-e4aaf13b3d19.png" width="900" height="500">
+
+ ## Extracting Date Range
+ 
+ Given a country, Extracting the start and end date for which country's covid news is available
+
+## Extracting the country specific covid news 
+
+Given a country and date range, 
+* Application extracts all the covid news related to that country between given dates.
+* Plotting a word cloud(Ignoring Word cloud) with all the words in the news extracted.
+<img src="https://user-images.githubusercontent.com/47922035/160139529-e33084d1-e69c-4efb-9cb2-bb983bb51d48.png" width="900" height="500">
+
+## Finding Top 3 closest countries according to Jaccard Similarity
+Given a country and a date range,
+* Application finds the top-3 countries with most similar news according to Jaccard Similarity
+  ```
+  J(A,B) = |A ∩ B|/|A ∪ B| where, A & B are the words
+  ```
