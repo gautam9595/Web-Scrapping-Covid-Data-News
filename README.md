@@ -60,7 +60,7 @@ Application to crawl web pages and extracting the required information from them
   <p>Total cases | Active cases | Total deaths | Total recovered | Total tests | Death/million | Tests/million | New case | New death | New recovered</p>
 </details>
 
-<img src="" width="900" height="500">
+<img src="https://user-images.githubusercontent.com/47922035/160141954-41ffac31-6eb9-4cd8-a886-1edd3ac09c9a.jpg" width="1100" height="350">
 
 ## Extraxting Countries Covid date-wise data.
 
@@ -77,6 +77,9 @@ Given a country name, start, and end date, application answers the following que
    * Closest country similar to Change in new recovered in %
    * Closest country similar to Change in new cases in %
 </details>
+
+
+<img src="https://user-images.githubusercontent.com/47922035/160142506-f4382b87-793a-4113-a552-b4aa2f9fc6a6.png" width="900" height="400">
 
 # Web-Scrapping-Covid-News
 
