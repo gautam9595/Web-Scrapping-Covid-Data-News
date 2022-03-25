@@ -1,4 +1,4 @@
-# Web-Scrapping-Covid-Data-News
+# Web-Scrapping-Covid-Data
 Application to crawl web pages and extracting the required information from them by creating suitable grammar rules. Data is being extracted for the following given countries.
 <details>
   <summary>Country list</summary>
@@ -73,4 +73,10 @@ Given a country name, start, and end date, application answers the following que
    * Closest country similar to Change in new recovered in %
    * Closest country similar to Change in new cases in %
 </details>
-Date-wise data is 
+# Web-Scrapping-Covid-News
+
+## Extracting Covid worldwide News/Response
+
+[Timeline of Covid-19](https://en.wikipedia.org/wiki/Timeline_of_the_COVID-19_pandemic) is a website managed by wikipedia. It reports all the coivd  related world/country specific news/response.<br/>
+Given a Start date and End date, the application extracts all the worldwide covid related news/response between the two dates. Also It Plots a <b>Word Cloud</b> with all words present in the news.
+![Screenshot from 2022-03-25 19-01-30](https://user-images.githubusercontent.com/47922035/160131559-2e94a8fb-f427-4191-9d4e-3ce7decb2194.png)
