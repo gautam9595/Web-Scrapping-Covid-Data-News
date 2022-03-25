@@ -556,7 +556,7 @@ def p_error(p):
 news = {2019:copy.deepcopy(months),2020:copy.deepcopy(months),2021:copy.deepcopy(months),2022:copy.deepcopy(months)}
 #------------Extracting 2019 Covid News---------------------
 #-------Opening file
-file_path = 'News20-22/2019.html'
+file_path = 'Web-Pages/News20-22/2019.html'
 f = open(file_path,'r')
 text = f.read()
 lexer = lex.lex()
@@ -566,7 +566,7 @@ parserr.parse(text,lexer=lexer)
 f.close()
 
 #------------Extracting 2020 Jan Covid News-----------------------
-file_path = 'News20-22/January2020.html'
+file_path = 'Web-Pages/News20-22/January2020.html'
 f = open(file_path,'r')
 text = f.read()
 lexer = lex.lex()
@@ -610,7 +610,7 @@ countries = [
 #---------------Extracting Covid News from the web-pages in folder 'News20-22'--------------------
 for c in countries:
     #-------Opening file
-    file_path = 'News20-22/' + c + '.html'
+    file_path = 'Web-Pages/News20-22/' + c + '.html'
     f = open(file_path,'r')
     text = f.read()
 
@@ -661,7 +661,7 @@ countries = [
 
 for c in countries:
     #--------Opening File
-    file_path = 'Resp20-22/' + c + '.html'
+    file_path = 'Web-Pages/Resp20-22/' + c + '.html'
     f = open(file_path,'r')
     text = f.read()
 
@@ -840,7 +840,7 @@ countries = {
 for c in countries:
     temp_news = date_range[c]
     #-----Opening File
-    file_path = 'StartDateRange1/' + c + '.html'
+    file_path = 'Web-Pages/StartDateRange1/' + c + '.html'
     f = open(file_path,'r')
     text = f.read()
     try:
@@ -870,7 +870,7 @@ countries = [
 for c in countries:
     temp_news = date_range[c]
     #-----Opening File
-    file_path = 'StartDateRange2/' + c + '.html'
+    file_path = 'Web-Pages/StartDateRange2/' + c + '.html'
     f = open(file_path,'r')
     text = f.read()
     try:
@@ -901,7 +901,7 @@ countries = [
 for c in countries:
     temp_news = date_range[c]
     #-----Opening File
-    file_path = 'EndDateRange1/' + c + '.html'
+    file_path = 'Web-Pages/EndDateRange1/' + c + '.html'
     f = open(file_path,'r')
     text = f.read()
     try:
@@ -933,7 +933,7 @@ countries = {
 for c in countries:
     temp_news = date_range[c]
     #-----Opening File
-    file_path = 'EndDateRange2/' + c + '.html'
+    file_path = 'Web-Pages/EndDateRange2/' + c + '.html'
     f = open(file_path,'r')
     text = f.read()
     try:
@@ -960,7 +960,7 @@ for country in Country_list:
     country_news[country] = {}
 
 #----------Extracting Argentina News
-file_path = 'country_Page/Argentina.html'
+file_path = 'Web-Pages/country_Page/Argentina.html'
 f = open(file_path,'r')
 text = f.read()
 lexer = lex.lex()
@@ -970,7 +970,7 @@ parserr.parse(text,lexer = lexer)
 f.close()
 #---------Extracting Australia News
 for i in range(1,5):
-    file_path = 'country_Page/Australia' + str(i) + '.html'
+    file_path = 'Web-Pages/country_Page/Australia' + str(i) + '.html'
     f = open(file_path,'r') 
     text = f.read()
     lexer = lex.lex()
