@@ -93,7 +93,7 @@ Given a Start date and End date, the application extracts all the worldwide covi
 
 For the below operations, stopwords are ignored.
 Given two non-overlapping date range
-* Application extracts all the common words and also covid common words. Covid Words are given in the folder.
+* Application extracts all the common words and also covid common words. Covid Words being used are provided in the code file.
 * Finds the percentage of covid words in common words
 * Find the top-20 common and covid common words
 * 
